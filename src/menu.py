@@ -177,7 +177,7 @@ class Menu:
         self._update_sound_labels()
         
         prompt = label.Label(terminalio.FONT, text="- PRESS HARD-DROP BUTTON -",
-            color=0xFFFFFF, x=60, y=246, scale=1)
+            color=0xFFFFFF, x=45, y=246, scale=1)
         
         group.append(prompt)
         self._prompt_label = prompt
